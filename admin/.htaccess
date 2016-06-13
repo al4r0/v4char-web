@@ -1,0 +1,14 @@
+<FilesMatch core.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch login.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch .htaccess>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>

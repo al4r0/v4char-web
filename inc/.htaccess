@@ -1,0 +1,59 @@
+<FilesMatch .htaccess>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch config.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch contactar.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch core.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch footer.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch hacking.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch head.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch inicio.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch noticias.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch menu.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch recursos.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
+
+<FilesMatch programar.php>
+   Order Allow,Deny
+   Deny from all
+</FilesMatch>
